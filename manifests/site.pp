@@ -1,3 +1,13 @@
+node 'jabreu082.mylabserver.com' {
+  notify { 'test-message-for-jabreu082':
+    messsage => 'this is jabreu082 using node def',
+  }
+}
+
+
+
+
+
 node 'jabreu086.mylabserver' {
   notify { 'This matches the node name!!!!': }
 }
