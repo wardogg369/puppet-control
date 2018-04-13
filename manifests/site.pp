@@ -22,5 +22,7 @@ node 'jabreu081.mylabserver.com' {
 }
 
 node defaults {
+  hiera-include('classes')  
+
 }
 
