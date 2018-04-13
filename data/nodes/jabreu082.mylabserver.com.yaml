@@ -1,0 +1,10 @@
+---
+profile::nginx::vhosts:
+  - 'fqdn': 'jabreu082.mylabserver.com'
+    'port': 80
+    'server_aliases': ''
+  - 'fqdn': 'jabreu082b.mylabserver.com'
+    'port': 80
+    'server_aliases': 'jabreu082b1.mylabserver.com'
+classes:
+  - profile::nginx
