@@ -4,7 +4,7 @@ node 'jabreu081.mylabserver.com' {
 }
 
 node default {
-  hiera_include('classes')  
-
+ # hiera_include('classes')  
+  include(hiera_array(classes, []))
 }
 
